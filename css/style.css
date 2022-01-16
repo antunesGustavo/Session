@@ -1,0 +1,56 @@
+/* Url do import da Fonte */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,400&display=swap');
+
+/* Todos os elementos da página */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins",sans-serif;
+}
+
+/* Estilização dos elementos da tag <body> */
+body{
+    background: rgb(81, 115, 218);
+}
+
+/* Estilização dos elementos da tag <forms> */
+form{
+    width: 330px;
+    position: relative;
+    background: #FFFF;
+    margin: 100px auto 100px;
+    border-radius: 10px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.24);
+}
+
+/* Estilização do input da tag <form> */
+form input{
+    background: #F2F2F2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+/* Estilização do botão da tag <form> */
+form button{
+    background: #FF8C00;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}
+
+/* Estilização da tag <img> */
+img{
+    margin-top: -100%;
+    margin-left: 45px;
+}

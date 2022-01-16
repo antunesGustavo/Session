@@ -1,0 +1,37 @@
+/* Url do import da Fonte */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,400&display=swap');
+
+/* Todos os elementos da página */
+*{
+    font-family: "Poppins",sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilização dos elementos da tag <body> */
+body{
+    color: #FFFFFF;
+    background-color:#FFA500;
+}
+
+/* Estilização dos elementos da classe "message" */
+.message{
+    font-size: 4.5rem;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    margin: 200px auto 100px;
+}
+
+/* Estilização dos elementos da classe "message" da tag <button> */
+.message button{
+    width: 330px;
+    background: rgb(81, 115, 218);
+    color: #FFFFFF;
+    border: 0;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 14px;
+    cursor: pointer;
+}
